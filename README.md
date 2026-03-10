@@ -8,6 +8,16 @@ Matrix-inspired Ghostty config for macOS with:
 - `Sarasa Mono TC` fallback for Traditional Chinese
 - custom shaders for a subtle CRT / digital rain effect
 
+## Preview
+
+Main preview:
+
+![Ghostty Matrix Theme Main Preview](asset/demo1.png)
+
+Additional preview:
+
+![Ghostty Matrix Theme Additional Preview](asset/demo2.png)
+
 This repo is free to use, modify, and share. It is released under the MIT
 License.
 
@@ -22,6 +32,7 @@ this with another custom Ghostty config, extra work is still required.
 
 ## Files
 
+- `asset/`: preview screenshots for GitHub
 - `config`: Ghostty config
 - `SKILL.md`: AI-agent oriented install instructions
 - `shaders/matrix_display.glsl`: display shader with faint digital rain
