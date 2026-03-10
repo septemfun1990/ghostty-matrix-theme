@@ -1,0 +1,53 @@
+window-colorspace = display-p3
+
+background = #060906
+foreground = #b8ffae
+background-opacity = 0.98
+background-blur = 8
+background-opacity-cells = true
+selection-background = #17331c
+selection-foreground = #efffe8
+
+macos-titlebar-style = transparent
+macos-window-buttons = visible
+macos-window-shadow = false
+
+window-padding-x = 12
+window-padding-y = 10
+window-padding-balance = true
+window-padding-color = extend
+
+font-family = ""
+font-family = "JetBrains Mono"
+font-family = "Sarasa Mono TC"
+font-size = 17
+font-thicken = true
+font-thicken-strength = 1
+adjust-cell-height = 1
+
+cursor-style = block
+cursor-style-blink = true
+cursor-color = #cfffbe
+minimum-contrast = 1.28
+unfocused-split-opacity = 0.94
+
+palette = 0=#050805
+palette = 1=#ff7a90
+palette = 2=#63d66c
+palette = 3=#ffd866
+palette = 4=#65b7ff
+palette = 5=#c792ff
+palette = 6=#62f0ff
+palette = 7=#b7ffae
+palette = 8=#17301b
+palette = 9=#ff9fb0
+palette = 10=#98ff70
+palette = 11=#ffe38a
+palette = 12=#92d0ff
+palette = 13=#ddb7ff
+palette = 14=#9cf7ff
+palette = 15=#efffe8
+
+custom-shader = ~/Library/Application Support/com.mitchellh.ghostty/shaders/matrix_display.glsl
+custom-shader = ~/Library/Application Support/com.mitchellh.ghostty/shaders/matrix_cursor_halo.glsl
+custom-shader-animation = always
