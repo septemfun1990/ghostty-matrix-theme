@@ -1,5 +1,7 @@
 # Ghostty Matrix Theme
 
+> A readable Matrix-inspired Ghostty theme for macOS with shader-based digital rain.
+
 Matrix-inspired Ghostty theme for macOS with readable green-on-black colors,
 clearer ANSI semantics, `JetBrains Mono` + `Sarasa Mono TC`, and subtle
 shader-based digital rain.
