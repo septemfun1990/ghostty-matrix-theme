@@ -17,13 +17,13 @@ This repo is free to use, modify, and share under the MIT License.
 
 ## Preview
 
-| Main | Animated |
+| Main | Additional |
 | --- | --- |
-| ![Ghostty Matrix Theme Main Preview](asset/demo1.png) | ![Ghostty Matrix Theme Animated Preview](asset/matrix-demo.gif) |
+| ![Ghostty Matrix Theme Main Preview](asset/demo1.png) | ![Ghostty Matrix Theme Additional Preview](asset/demo2.png) |
 
-Additional static preview:
+Animated preview:
 
-![Ghostty Matrix Theme Additional Preview](asset/demo2.png)
+![Ghostty Matrix Theme Animated Preview](asset/matrix-demo.gif)
 
 ## Quick Install
 
