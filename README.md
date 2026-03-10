@@ -8,6 +8,9 @@ Matrix-inspired Ghostty config for macOS with:
 - `Sarasa Mono TC` fallback for Traditional Chinese
 - custom shaders for a subtle CRT / digital rain effect
 
+This repo is free to use, modify, and share. It is released under the MIT
+License.
+
 This repository is intended to be enough for moving the Matrix theme itself
 between macOS machines. It includes the Ghostty config that defines the theme,
 the two shaders the theme depends on, and an installer that copies them into
@@ -46,6 +49,11 @@ cp shaders/*.glsl ~/Library/Application\ Support/com.mitchellh.ghostty/shaders/
 ```
 
 Then fully quit and reopen Ghostty.
+
+## License
+
+This theme is open for public use under the MIT License. You can use it,
+modify it, and redistribute it freely. See [LICENSE](LICENSE).
 
 ## What This Repo Covers
 
