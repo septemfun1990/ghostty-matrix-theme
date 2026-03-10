@@ -1,25 +1,34 @@
 # Ghostty Matrix Theme
 
-Matrix-inspired Ghostty config for macOS with:
+Matrix-inspired Ghostty theme for macOS with readable green-on-black colors,
+clearer ANSI semantics, `JetBrains Mono` + `Sarasa Mono TC`, and subtle
+shader-based digital rain.
 
-- readable green-on-black base colors
-- clearer ANSI semantic colors for CLI tools
-- `JetBrains Mono` primary font
-- `Sarasa Mono TC` fallback for Traditional Chinese
-- custom shaders for a subtle CRT / digital rain effect
+This repo is free to use, modify, and share under the MIT License.
+
+## Highlights
+
+- Readable Matrix-style terminal colors, not pure monochrome green
+- Traditional Chinese-friendly font setup
+- Custom shaders for CRT glow, cursor halo, and faint digital rain
+- Backup-first installer for the files this theme manages
 
 ## Preview
 
-Main preview:
+| Main | Additional |
+| --- | --- |
+| ![Ghostty Matrix Theme Main Preview](asset/demo1.png) | ![Ghostty Matrix Theme Additional Preview](asset/demo2.png) |
 
-![Ghostty Matrix Theme Main Preview](asset/demo1.png)
+## Quick Install
 
-Additional preview:
+```bash
+brew install --cask font-jetbrains-mono font-sarasa-gothic
+git clone git@github.com:septemfun1990/ghostty-matrix-theme.git
+cd ghostty-matrix-theme
+./install.sh
+```
 
-![Ghostty Matrix Theme Additional Preview](asset/demo2.png)
-
-This repo is free to use, modify, and share. It is released under the MIT
-License.
+Then fully quit and reopen Ghostty.
 
 This repository is intended to be enough for moving the Matrix theme itself
 between macOS machines. It includes the Ghostty config that defines the theme,
@@ -41,6 +50,8 @@ this with another custom Ghostty config, extra work is still required.
 
 ## Install
 
+Standard install:
+
 ```bash
 ./install.sh
 ```
@@ -51,15 +62,13 @@ Safe preview:
 ./install.sh --dry-run
 ```
 
-Or copy manually:
+Manual install:
 
 ```bash
 mkdir -p ~/Library/Application\ Support/com.mitchellh.ghostty/shaders
 cp config ~/Library/Application\ Support/com.mitchellh.ghostty/config
 cp shaders/*.glsl ~/Library/Application\ Support/com.mitchellh.ghostty/shaders/
 ```
-
-Then fully quit and reopen Ghostty.
 
 ## License
 
@@ -116,8 +125,6 @@ If validation fails in a headless or restricted environment, install can still
 be correct. In that case, restart Ghostty and verify visually inside the app.
 
 ## Fonts
-
-Recommended fonts:
 
 - `JetBrains Mono`
 - `Sarasa Mono TC`
